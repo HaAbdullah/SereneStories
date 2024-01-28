@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SereneStories/static/css/main.b238392c.css",
-    "main.js": "/SereneStories/static/js/main.913fa100.js",
+    "main.js": "/SereneStories/static/js/main.a4f8fabc.js",
     "static/js/787.bb687496.chunk.js": "/SereneStories/static/js/787.bb687496.chunk.js",
     "static/media/sun.png": "/SereneStories/static/media/sun.1887a4d02f32a2c13348.png",
     "index.html": "/SereneStories/index.html",
     "main.b238392c.css.map": "/SereneStories/static/css/main.b238392c.css.map",
-    "main.913fa100.js.map": "/SereneStories/static/js/main.913fa100.js.map",
+    "main.a4f8fabc.js.map": "/SereneStories/static/js/main.a4f8fabc.js.map",
     "787.bb687496.chunk.js.map": "/SereneStories/static/js/787.bb687496.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b238392c.css",
-    "static/js/main.913fa100.js"
+    "static/js/main.a4f8fabc.js"
   ]
 }
