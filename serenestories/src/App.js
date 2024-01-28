@@ -28,10 +28,10 @@ const App = () => {
 
   return (
     <div className="App">
-      {step === 1 && <FeelingStep onFeelingChange={handleFeelingChange} />}
+    {step === 1 && <FeelingStep onFeelingChange={handleFeelingChange} />}
       {step === 2 && <TimeStep onNext={handleTimeChange} />}
       {step === 3 && <ActivityStep onActivityChange={handleActivityChange} />}
-      {step === 4 && <ChallengePage />}
+      {step === 4 && <ChallengePage feeling={feeling} time={time} activity={activity} />}
     </div>
   );
 }
