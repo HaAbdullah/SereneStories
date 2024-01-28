@@ -1,16 +1,5 @@
+
 body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-}
-
-.App {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  /* Add other global styles here */
+  position: relative;
   background-color: #F6D0CA;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-/* Add additional styling as needed */

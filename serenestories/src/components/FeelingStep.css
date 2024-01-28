@@ -1,36 +1,39 @@
-/* FeelingStep.css */
-
-/* Center the component vertically and horizontally */
-.feeling{
+.feeling {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-/* Increase font size and set font color */
-p {
-  font-size: 24px;
-  color: #333; /* You can adjust the color as needed */
-}
-
-/* Style the container for buttons */
-.button-container {
-  display: flex;
-  gap: 10px; /* Add some gap between buttons */
-}
-
-/* Style the buttons with transparent background */
-button {
-  background-color: transparent;
-  border: none;
-}
-
-/* Make the SVG icons larger */
-svg {
-  width: 48px;
-  height: 48px;
-  fill: #333; /* You can adjust the color as needed */
-}
-
-/* Additional styling as needed */
+    background-color: #F6D0CA; /* Background color you specified */
+  }
+  
+  .button-container {
+    display: flex;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  button {
+    background: url('../sun.png') no-repeat;
+    background-size: cover;
+    width: 100px; /* Increase the width of buttons */
+    height: 100px; /* Increase the height of buttons */
+    margin: 0 10px; /* Adjust the margin between buttons as needed */
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  button svg {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  p {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000; /* Text color */
+    border: 3px solid #000; /* Border styling */
+    background: #F4C430; /* Background color */
+    padding: 15px; /* Add padding to the question */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  

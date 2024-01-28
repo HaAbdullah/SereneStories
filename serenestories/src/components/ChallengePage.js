@@ -4,35 +4,37 @@ import './ChallengePage.css';
 
 const ChallengePage = ({ feeling, time, activity }) => {
   const getChallenge = () => {
-    if (time === '5 minutes' && feeling === 1 && activity === 'physical') {
-      return "Take a deep breath and stretch for 5 minutes to release tension.";
-    } else if (time === '5 minutes' && feeling === 1 && activity === 'recreational') {
+    if (time === '15 minutes' && feeling === 1 && activity === 'physical') {
+      return "Take a deep breath and stretch for 15 minutes to release tension.";
+    } else if (time === '15 minutes' && feeling === 1 && activity === 'recreational') {
       return "Watch a funny video online to lighten your mood.";
-    } else if (time === '5 minutes' && feeling === 1 && activity === 'effortless') {
+    } else if (time === '15 minutes' && feeling === 1 && activity === 'effortless') {
+      return "Sit down, drink water, and close your eyes.";
+    } else if (time === '15 minutes' && feeling === 1 && activity === 'effortless') {
       return "Listen to an uplifting song to boost your spirits.";
-    } else if (time === '5 minutes' && feeling === 2 && activity === 'physical') {
+    } else if (time === '15 minutes' && feeling === 2 && activity === 'physical') {
       return "Go for a short walk or do some light exercises.";
-    } else if (time === '5 minutes' && feeling === 2 && activity === 'recreational') {
+    } else if (time === '15 minutes' && feeling === 2 && activity === 'recreational') {
       return "Read a quick and entertaining article or blog post.";
-    } else if (time === '5 minutes' && feeling === 2 && activity === 'effortless') {
+    } else if (time === '15 minutes' && feeling === 2 && activity === 'effortless') {
       return "Take a moment to appreciate something positive around you.";
-    } else if (time === '5 minutes' && feeling === 3 && activity === 'physical') {
+    } else if (time === '15 minutes' && feeling === 3 && activity === 'physical') {
       return "Do a quick workout routine, focusing on breathing and movement.";
-    } else if (time === '5 minutes' && feeling === 3 && activity === 'recreational') {
+    } else if (time === '15 minutes' && feeling === 3 && activity === 'recreational') {
       return "Spend a few minutes engaging in a hobby or creative activity.";
-    } else if (time === '5 minutes' && feeling === 3 && activity === 'effortless') {
+    } else if (time === '15 minutes' && feeling === 3 && activity === 'effortless') {
       return "Close your eyes and practice a short mindfulness exercise.";
-    } else if (time === '5 minutes' && feeling === 4 && activity === 'physical') {
+    } else if (time === '15 minutes' && feeling === 4 && activity === 'physical') {
       return "Dance to your favorite upbeat music for an energy boost.";
-    } else if (time === '5 minutes' && feeling === 4 && activity === 'recreational') {
+    } else if (time === '15 minutes' && feeling === 4 && activity === 'recreational') {
       return "Write down three things you're grateful for.";
-    } else if (time === '5 minutes' && feeling === 4 && activity === 'effortless') {
+    } else if (time === '15 minutes' && feeling === 4 && activity === 'effortless') {
       return "Listen to a motivational podcast or audio clip.";
-    } else if (time === '5 minutes' && feeling === 5 && activity === 'physical') {
+    } else if (time === '15 minutes' && feeling === 15 && activity === 'physical') {
       return "Try a quick high-intensity workout to get your heart rate up.";
-    } else if (time === '5 minutes' && feeling === 5 && activity === 'recreational') {
+    } else if (time === '15 minutes' && feeling === 15 && activity === 'recreational') {
       return "Engage in a favorite hobby or activity that brings you joy.";
-    } else if (time === '5 minutes' && feeling === 5 && activity === 'effortless') {
+    } else if (time === '15 minutes' && feeling === 15 && activity === 'effortless') {
       return "Reflect on a recent achievement or positive experience.";
     } else if (time === '30 minutes' && feeling === 1 && activity === 'physical') {
       return "Take a longer walk or do a gentle workout for 30 minutes.";
@@ -43,7 +45,7 @@ const ChallengePage = ({ feeling, time, activity }) => {
     } else if (time === '30 minutes' && feeling === 2 && activity === 'physical') {
       return "Engage in a moderate-intensity workout or jog for 30 minutes.";
     } else if (time === '30 minutes' && feeling === 2 && activity === 'recreational') {
-      return "Play a longer game or activity that challenges your mind.";
+      return "Play a simple game of minesweeper.";
     } else if (time === '30 minutes' && feeling === 2 && activity === 'effortless') {
       return "Explore a podcast series on a topic you find intriguing for 30 minutes.";
     } else if (time === '30 minutes' && feeling === 3 && activity === 'physical') {
@@ -53,16 +55,16 @@ const ChallengePage = ({ feeling, time, activity }) => {
     } else if (time === '30 minutes' && feeling === 3 && activity === 'effortless') {
       return "Meditate or practice mindfulness for 30 minutes.";
     } else if (time === '30 minutes' && feeling === 4 && activity === 'physical') {
-      return "Join a fitness class or do a workout that brings joy for 30 minutes.";
+      return "Complete a cardio workout that brings joy for 30 minutes.";
     } else if (time === '30 minutes' && feeling === 4 && activity === 'recreational') {
-      return "Engage in a creative project or art activity for 30 minutes.";
+      return "Doodle your heart's content out.";
     } else if (time === '30 minutes' && feeling === 4 && activity === 'effortless') {
       return "Watch a feel-good movie or TV show for 30 minutes.";
-    } else if (time === '30 minutes' && feeling === 5 && activity === 'physical') {
+    } else if (time === '30 minutes' && feeling === 15 && activity === 'physical') {
       return "Participate in a longer, enjoyable physical activity for 30 minutes.";
-    } else if (time === '30 minutes' && feeling === 5 && activity === 'recreational') {
+    } else if (time === '30 minutes' && feeling === 15 && activity === 'recreational') {
       return "Spend time on a favorite recreational activity for 30 minutes.";
-    } else if (time === '30 minutes' && feeling === 5 && activity === 'effortless') {
+    } else if (time === '30 minutes' && feeling === 15 && activity === 'effortless') {
       return "Reflect on positive aspects of your life for 30 minutes.";
     } else if (time === '1 hour' && feeling === 1 && activity === 'physical') {
       return "Embark on a longer physical activity or workout for 1 hour.";
@@ -88,11 +90,11 @@ const ChallengePage = ({ feeling, time, activity }) => {
       return "Engage in a creative pursuit or artistic activity for 1 hour.";
     } else if (time === '1 hour' && feeling === 4 && activity === 'effortless') {
       return "Watch an inspiring documentary or TED talk for 1 hour.";
-    } else if (time === '1 hour' && feeling === 5 && activity === 'physical') {
+    } else if (time === '1 hour' && feeling === 15 && activity === 'physical') {
       return "Spend 1 hour on a physical activity that brings joy and fulfillment.";
-    } else if (time === '1 hour' && feeling === 5 && activity === 'recreational') {
+    } else if (time === '1 hour' && feeling === 15 && activity === 'recreational') {
       return "Indulge in a favorite recreational activity or hobby for 1 hour.";
-    } else if (time === '1 hour' && feeling === 5 && activity === 'effortless') {
+    } else if (time === '1 hour' && feeling === 15 && activity === 'effortless') {
       return "Take an hour to reflect on achievements and express gratitude.";
     } else {
       return "No specific challenge for this combination.";

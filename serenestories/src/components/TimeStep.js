@@ -6,7 +6,7 @@ const TimeStep = ({ onNext }) => {
 
   return (
     <div className="TimeStepContainer"> {/* Add a container div with the specified class */}
-      <p>How much time do you have?</p>
+      <p>Your brighten up time?</p>
       {timeValues.map((value) => (
         <button key={value} onClick={() => onNext(value)}>
           {value}

@@ -1,33 +1,40 @@
-
-
-.time {
+.TimeStepContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #F6D0CA;
   }
-button {
-    font-family: Arial, Helvetica, sans-serif, sans-serif; 
-    font-size: 16px;
+  
+  .button-container {
+    display: flex;
+    margin-top: 20px;
   }
-  /* styles.css */
-
-/* ... (previous styles) */
-
-/* Updated style for the time buttons with a border and different background color */
-.TimeStepContainer button {
-  background-color: #17181C; /* Updated background color */
-  color: #DC4280; /* Updated text color */
-  padding: 10px 20px;
-  margin: 5px;
-  border: 3px solid #DC4280; /* Added border style */
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-/* Hover effect for the updated buttons */
-.TimeStepContainer button:hover {
-  background-color: #2C2D33; /* Darker background color on hover */
-}
+  
+  button {
+    background: url('../sun.png') no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button svg {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #000;
+    border: 3px solid #000;
+    background: #F4C430;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
